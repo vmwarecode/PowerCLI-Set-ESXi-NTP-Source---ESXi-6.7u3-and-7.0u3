@@ -8,7 +8,6 @@ Function Set-EsxiNtpSource {
         Add current NTP Source Servers.
         Set NTP Service Policy to "on" (Start and stop with host).
         Start NTP Service on ESXi hosts.
-        Test NTP services with newly configured NTP Source(s).
     .EXAMPLE
         Set-EsxiNtpSource -vCenter 'vcenter.fqdn.com'
         Set-EsxiNtpSource -vCenter 'vcenter.fqdn.com' -ntpSource "8.8.8.8"
